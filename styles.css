@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background: #fff;
+    color: black;
+    box-shadow: 0 0.5px 20px #eee;
+    border-radius: 18px;
+}
+
+.prof-image{
+    height:300px ;
+    width:300px ;
+    border: transparent;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px skyblue;
+}
+ 
+ .info-button{
+    border: none;
+    height: 35px;
+    width: 120px;
+    border-radius: 18px;
+ }
+ .pro-but{
+    border: none;
+    height: 35px;
+    width: 120px;
+    border-radius: 18px;
+ }
+ .item{
+    color: blue;
+    font-weight: bold;
+ }
+
+ #notify{
+    display: none;
+    text-align: center;
+ }
+ #notify h2{
+    color: green;
+ }
+ #notify-but{
+    width: 70px;
+ }
+.child{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .source:hover{
+    text-decoration: none;
+    color: white;
+ }
+#desc{
+    background: #fff;
+    color: black;
+    box-shadow: 0 0.5px 20px #eee;
+    border-radius: 18px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+footer {
+    background: #f8f9fa;
+}
+#portfolio{
+    background: #fff;
+    box-shadow: 0 0.5px 20px #eee;
+    border-radius: 18px;
+}
+
+.down{
+    text-decoration: none;
+}
+.down:hover{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light mt-3">
+        <a class="navbar-brand text-info" href="#">Mani</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-info" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" class="item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item" class="item">
+                    <a class="nav-link" href="#portfolio">Projects</a>
+                </li>
+                <li class="nav-item" class="item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+    </nav>
+
+    <!-- description Section -->
+    <header id="home" class="hero text-center py-5">
+        <div class="container">
+            <h4 class="text-info">Hello! and Welcome to My Portfolio</h4>
+        </div>
+    </header>
+    <section id="desc" class="hero text-center py-5">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="info-card mt-3">
+                    <p class="info-para">I'm Mani Surya Bhaskar, a Full-Stack Web Developer with having a grip on different libraries and frameworks like 
+                        React, Node, Express, Postgres and others.<br>As a developer I'm keep concentrating on new things and keep my self upto date.
+                        <br>Thanks for reading.
+                    </p>
+                    <button class="btn btn-outline-info text-info"><a href="./assets/mani.pdf" download="resume.docx" class="down text-info">Resume</a></button>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="info-img">
+                   <img src="./assets/new.jpg"  alt="profile image" class="prof-image mt-4">
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="portfolio" class="py-5 mt-3">
+        <div class="container">
+            <h2 class="text-center text-info p-2">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./assets/pic2.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Weather App</h5>
+                            <p class="card-text"> A weather app which was built with React can provide current weather information and forecasts for the locations around the world. It also shows others like Humidity and Wind Speed.</p>
+                            <button class="btn btn-outline-info pro-but"><a class="source" href="https://weather-app-three-xi-82.vercel.app">View</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">A brief description of project 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">A brief description of project 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center text-info">Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 text-info">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</div>
+    <section id="notify" class="m-3">
+        <div class="child">
+        <h2 class="p-3">Your Details has been submitted..</h2>
+        <button id="notify-but" class="btn bg-success btn-outline-success text-light">Back</button>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
